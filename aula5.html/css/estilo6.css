@@ -1,0 +1,21 @@
+p{
+    width: 400px;
+    height: 250px;
+}
+
+#anamaria{
+   color: forestgreen;
+}
+
+#joanopolis{
+    color: blueviolet;
+}
+
+.borda{
+    border: 2px solid rgb(16, 89, 138);
+}
+
+.sombra{
+    box-shadow: 0 0 10px 5px cyan;
+    
+}
