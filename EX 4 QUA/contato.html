@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        * {font-family: Arial, Helvetica, sans-serif;}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Prof Code - Professor Ajax</h1>
+    <img src="img/cont.webp" alt="" width="860" height="400">  
+    
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="musica.html">MÚSICA</a> |
+        <a href="aulas.html">AULAS</a> |
+        <a href="planos.html">PLANOS</a> |
+        <a href="contato.html">CONTATO</a> 
+    </nav>
+    
+</header>
+ 
+<main>
+<h1>Contato com o Professor Ajax</h1><br>
+<form action="METHOD">
+<fieldset>
+<legend>Contato</legend>
+
+<label for="inom">Nome:</label>
+<input type="text" name="Nome" id="inom" size="30" minlength="5" maxlength="40" required placeholder="Digite seu nome." autocomplete="username">
+<br>
+
+<label for="isob">Sobrenome:</label>
+<input type="text" name="sobrenome" id="isob" size="30" minlength="5" maxlength="40" required placeholder="Digite seu sobrenome." autocomplete="username">
+<br>
+
+<label for="itel">Telefone:</label>
+<input type="tel" name="Telefone" id="itel" size="30" minlength="5" maxlength="40" required placeholder="Digite seu telefone." autocomplete="tel">
+<br>
+
+<label for="iemail">Email:</label>
+<input type="email" name="Email" id="iemail" size="30" minlength="5" maxlength="40" required placeholder="Digite seu email." autocomplete="email">
+<br>
+
+<label for="ilang">Linguagem de programação preferida:<br>
+<select name="linguagem" id="ilang">
+    <option value="0">Indiferente</option>
+    <option value="1">Java</option>
+    <option value="2">Python</option>
+    <option value="3">CSharp</option>
+    <option value="4">R</option>
+</select></label>
+<br>
+
+<label for="imen">Mensagem:</label><br>
+<textarea name="Mensagem" id="imen" cols="30" rows="10"></textarea>
+<br>
+<input type="submit" value="Enviar">
+<input type="reset" value="Limpar">
+
+</fieldset>
+</form>
+
+
+</main>
+
+<footer>
+    <Strong>Professor Ajax - Formado em Engenharia da Computação pela Universidade de São Paulo</Strong>
+</footer>
+
+</body>
+</html>
